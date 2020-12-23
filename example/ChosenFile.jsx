@@ -3,7 +3,6 @@ import { Card } from 'reactstrap'
 import ReactCrop from 'react-image-crop';
 import 'react-image-crop/dist/ReactCrop.css';
 import { createWorker } from 'tesseract.js';
-
 import spinner from '../../assets/img/spinner_white.svg'
 
 export default class ChosenFile extends Component {
